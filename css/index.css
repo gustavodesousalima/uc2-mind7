@@ -26,11 +26,14 @@ header a{
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 10vh;
+    height: 0vh;
     gap: 10%;
 }
 
 .Container-links a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
 }
 
@@ -76,7 +79,7 @@ header a{
     color: #fff;
 
     a{
-        color: #fff;
+        color: #FEFADC;
     }
 }
 
@@ -128,6 +131,14 @@ header a{
     font-weight: bold;
     color: #FEFADC;
     font-size: 1.2rem;
+}
+
+#botao-saiba-mais:hover{
+    background-color: #000000;
+    color: #FEFADC;
+    a:hover{
+        color: #FEFADC;
+    }
 }
 
 .container-hashtag{
