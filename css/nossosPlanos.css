@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+header a{
+    font-weight: bold;
+    color: #000000;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.container-sidebar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    background-color: #FFDC40;
+    box-shadow: -2px 8px 13px -5px rgba(0,0,0,0.3);
+}
+
+.Container-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 0vh;
+    gap: 10%;
+}
+
+.Container-links a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.zoom:hover {
+    transform: scale(1.2); /* Aumenta o tamanho em 20% /
+    transition: transform 0.3s ease; / Adiciona uma transição suave */
+  }
+
+.zoom-logo:hover {
+    transform: scale(1.1); /* Aumenta o tamanho em 20% /
+    transition: transform 0.3s ease; / Adiciona uma transição suave */
+  }
+
+.container-logo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.container-logo img{
+    width: 100%;
+    height: 12vh;
+}
+
+.container-cadastro-login{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 18%;
+    height: 10vh;
+
+}
+.container-cadastro-login button{
+    background: none;
+    padding: 5px 20px 5px 20px;
+    border-radius: 503px;
+    border: 3px solid #283433;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container-cadastro-login button:hover{
+    background-color: black;
+    color: #fff;
+
+    a{
+        color: #FEFADC;
+    }
+}
+
+.container-planos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-nossos-planos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 33%;
+}
+
+.container-text-nossos-planos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-nossos-planos h1{
+    font-size: 2.5rem;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #EBC209;
+}
+
+.container-nossos-planos img{
+    height: 15vh;
+}
+
+.container-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card-primary{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 26.66%;
+    height: 70vh;
+    border-radius: 25px;
+    padding-left: 2%;
+    gap: 2%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: #C5F1EE;
+    box-shadow: 0px 39px 0px 0px #57D1C9 inset;
+}
+
+.container_plano_value{
+    display: flex;
+    width: 80%;
+    height: 20vh;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0%;
+}
+
+.container_plano_basic-title{
+    display: flex;
+    width: 80%;
+    height: 14vh;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.container_plano_basic-title h2{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+
+.container-value-mes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+    padding-right: 10%;  
+    gap: 10%;
+}
+
+.container-Button button{
+    padding: 15px 50px 15px 50px;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.container-Button a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: Montserrat;
+    font-weight: bolder;
+    color: #000000;
+}
+
+.card-second{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 26.66%;
+    height: 70vh;
+    border-radius: 25px;
+    padding-left: 2%;
+    gap: 2%;
+    background-color: #FFED9B;
+    box-shadow: 0px 39px 0px 0px #CCA807 inset;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.card-thind{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 26.66%;
+    height: 70vh;
+    border-radius: 25px;
+    padding-left: 2%;
+    gap: 2%;
+    background-color: #F8C3D9;
+    box-shadow: 0px 42px 0px 0px #ED72A6 inset;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
