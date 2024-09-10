@@ -95,7 +95,7 @@
 
   body{
     width: 100%;
-    height: 180vh;
+    height: auto;
     background-color: #FFED9B;
   }
 
@@ -158,8 +158,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid;
-  border-radius: 60px;
+}
+
+.grafico img{
+  width: 80%;
 }
 
 .zoom1:hover {
