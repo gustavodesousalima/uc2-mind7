@@ -98,13 +98,13 @@ header a{
     justify-content: center;
     align-self: center;
     width: auto;
-    height: 96vh;
+    height: 80vh;
 }
 
 .container-image img{
     padding: 1px;
     width: auto;
-    height: 96vh;
+    height: 80vh;
 }
 
 .container-login{
