@@ -89,6 +89,7 @@ header a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    z-index: 1;
 }
 
 .container-nossos-planos{
@@ -225,4 +226,32 @@ header a{
     background-color: #F8C3D9;
     box-shadow: 0px 42px 0px 0px #ED72A6 inset;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.fundo-ofuscado {
+    filter: blur(15px);
+}
+
+.modal-cards-desative{
+    position: absolute;
+    width: 80%;
+    height: 75vh;
+    transform: translate(-50%, -70%);
+    top: -70%;
+    left: 50%;
+    transition: 1s all ease;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 25px;
+}
+
+.modal-cards-ative{
+    position: absolute;
+    width: 80%;
+    height: 75vh;
+    transform: translate(-50%, -70%);
+    top: 70%;
+    left: 50%;
+    transition: 1s all ease;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 25px;
 }

@@ -121,7 +121,7 @@
 
             <div class="container-Button">
               <button style="background-color: #57d1c9; border: none">
-                <a href="#">Saiba +</a>
+                <a href="#" onclick="funcaoAtivarModalBasic()">Saiba +</a>
               </button>
               <button style="background-color: #57d1c9; border: none">
                 <a href="#">Assinar</a>
@@ -201,7 +201,7 @@
 
             <div class="container-Button">
               <button style="background-color: #cca807; border: none">
-                <a href="#">Saiba +</a>
+                <a id="saibamais-advanced" onclick="funcaoAtivarModalAdvanced()" href="#">Saiba +</a>
               </button>
               <button style="background-color: #cca807; border: none">
                 <a href="./nossosPlanos.html">Assinar</a>
@@ -281,7 +281,7 @@
 
             <div class="container-Button">
               <button style="background-color: #ed72a6; border: none">
-                <a href="#">Saiba +</a>
+                <a href="#" onclick="funcaoAtivarModalPremium()">Saiba +</a>
               </button>
               <button style="background-color: #ed72a6; border: none">
                 <a href="">Assinar</a>
@@ -290,6 +290,31 @@
           </div>
         </div>
       </section>
+
     </main>
+    <section style="background-color: #C5F1EE; box-shadow: 0px 39px 0px 0px #57D1C9 inset;" id="modal_basic" class="modal-cards-desative">
+        <div>
+          <button onclick="funcaoDesativarModalBasic()">
+            fechar
+          </button>
+        </div>
+    </section>
+
+    <section style="background-color: #FFED9B; box-shadow: 0px 39px 0px 0px #CCA807 inset;" id="modal_advanced" class="modal-cards-desative">
+      <div>
+        <button onclick="funcaoDesativarModalAdvanced()">
+          fechar
+        </button>
+      </div>
+    </section>
+
+    <section style="background-color: #F8C3D9; box-shadow: 0px 42px 0px 0px #ED72A6 inset;" id="modal_premium" class="modal-cards-desative">
+      <div>
+        <button onclick="funcaoDesativarModalPremium()">
+          fechar
+        </button>
+      </div>
+    </section>
   </body>
+  <script src="./js/index..js"></script>
 </html>
