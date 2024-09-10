@@ -78,6 +78,10 @@ header a {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+main {
+  background-color: #ffe676;
+}
+
 .container-cadastro-login button:hover {
   background-color: black;
   color: #fff;
@@ -85,12 +89,6 @@ header a {
   a {
     color: #fefadc;
   }
-}
-
-main {
-  width: 100%;
-  height: auto;
-  background-color: #ffe6f0;
 }
 
 .container_blog2 {
@@ -112,120 +110,68 @@ main {
   font-weight: bold;
 }
 
-.titulo_materia {
-  display: flex;
+.pesquisa {
   width: 100%;
-
-  align-items: center;
-  justify-content: center;
-  margin: 85px;
-}
-
-.titulo_materia h1 {
-  font-family: Orbitron;
-  font-size: 50px;
+  margin-top: 8vh;
+  p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 8px;
+  }
   text-align: center;
 }
 
-.titulo_autor {
-  width: 75%;
-  display: flex;
-  text-align: start;
+.pesq {
+  width: 65%;
+  height: 40px;
+  border-radius: 15px;
+  border: 0;
 }
 
-.paragrafo1 {
+.btn1 {
+  border-radius: 10px;
+  height: 40px;
+  width: 18vh;
+  font-weight: bold;
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: black;
+  color: white;
+  transition: 1s;
+}
+
+.sessao1,
+.sessao2,
+.sessao3,
+.sessao4 {
   width: 100%;
-  height: auto;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-  margin: 40px;
-  gap: 105px;
+  justify-content: space-around;
+  margin-top: 8vh;
 }
 
-.parte_1 {
-  display: flex;
-  height: auto;
-  width: 30%;
-}
-
-.paragrafo1 p {
-  color: #000;
-  font-family: Montserrat;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 100;
-  line-height: normal;
-}
-
-.paragrafo2 {
-  width: 80%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.parte_2 p {
-  color: #000;
-  font-family: Montserrat;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 100;
-  line-height: normal;
-}
-
-.paragrafo_3 {
-  width: 80%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px;
-}
-
-.parte_3 h1 {
-  font-family: orbitron;
-}
-
-.parte_3 p {
-  color: #000;
-  font-family: Montserrat;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 100;
-  line-height: normal;
-}
-.container_boton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.boton2 a {
-  background-color: #fff;
-  text-decoration: none;
-  color: #000;
-  font-family: Montserrat;
-  font-weight: bold;
-  font-size: 25px;
-}
-
-button {
-  border: none;
-  border-radius: 10px;
-  padding: 10px 50px 10px 50px;
-  background-color: #fff;
-  margin: 20px;
-}
-
-.container_boton button:hover {
-  background-color: rgb(255, 255, 255);
-  color: #000000;
-
-  a {
-    color: #ffe100;
+.caixa {
+  background-color: white;
+  border-radius: 16px;
+  width: 26%;
+  height: 228px;
+  text-align: center;
+  img {
+    width: 370px;
+    height: 170px;
+    margin-top: 10px;
+  }
+  p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
   }
 }
