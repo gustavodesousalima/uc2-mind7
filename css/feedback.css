@@ -19,10 +19,14 @@ body {
     text-decoration: none;
     color: black;
     padding: 10px;
-    background-color:  rgba(217, 217, 217, 1);
+    background-color: rgba(217, 217, 217, 1);
     border-radius: 32px; 
 }
 
+.swiper-container {
+    position: relative; 
+    height: 400px; 
+}
 
 .swiper-button-next, .swiper-button-prev {
     width: 44px; 
@@ -34,15 +38,17 @@ body {
     justify-content: center;    
     color: white; 
     z-index: 10; 
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
 }
 
 .swiper-button-next {
-    top: 60%; 
-    transform: translateY(-50%); 
+    right: 0; 
+    margin-right: 10px; 
 }
 
 .swiper-button-prev {
-    left: 10px; 
-    top: 60%; 
-    transform: translateY(-50%); 
+    left: 0; 
+    margin-left: 10px; 
 }
