@@ -5,6 +5,10 @@
     font-family: Montserrat;
 }
 
+main{
+    height: 120vh;
+}
+
 header a{
     font-weight: bold;
     color: #000000;
