@@ -161,17 +161,53 @@ main {
   background-color: white;
   border-radius: 16px;
   width: 26%;
-  height: 228px;
+  height: 250px;
   text-align: center;
   img {
     width: 370px;
     height: 170px;
     margin-top: 10px;
+    cursor: pointer;
   }
   p {
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
   }
+
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+}
+
+a p:hover {
+  opacity: 50%;
+}
+
+.caixa:hover {
+  transform: scale(1.1);
+}
+
+.sessao6 {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+.veja {
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.veja:hover {
+  background-color: #000000;
+  color: white;
+  transition: 1s;
 }
