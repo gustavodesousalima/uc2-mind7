@@ -88,24 +88,31 @@
   }
   
   main {
+
     width: 100%;
-    height: auto;
+    height: 180vh;
     background-color: #FFED9B;
   }
 
   body{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
     width: 100%;
-    height: auto;
+    height: 180vh;
     background-color: #FFED9B;
   }
 
 .conteudo{
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: start;
   width: 100%;
-  height: 220vh;
+  height: 180vh;
+  margin-top: 5%;
   gap: 8%;
+  
   
 }
 .conteudo_principal{
@@ -125,6 +132,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 5%;
+  margin-top: 10%;
 }
 .barra_lateral img{
   width: 50%;
@@ -160,12 +168,24 @@
   align-items: center;
 }
 
+.grafico2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
 .grafico img{
-  width: 80%;
+  width: 85%;
 }
 
 .zoom1:hover {
   transform: scale(
     1.1
   );
+}
+
+hr{
+  width: 100%;
 }
