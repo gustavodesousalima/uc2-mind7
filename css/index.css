@@ -99,6 +99,17 @@ header a{
     gap: 10%;
 }
 
+.carrosel-item-1-desative, .carrosel-item-2-desative {
+    display: none;
+    transition: 2s all ease;
+}
+
+.carrosel-item-1-ative, .carrosel-item-2-ative {
+    display: flex;
+    transition: 2s all ease;
+}
+
+
 .container-peca-ajuda{
     display: flex;
     justify-content: space-between;
