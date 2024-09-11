@@ -158,9 +158,9 @@ main {
 .paragrafo1 p {
   color: #000;
   font-family: Montserrat;
-  font-size: 26px;
+  font-size: 24px;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 0;
   line-height: normal;
 }
 
@@ -175,7 +175,7 @@ main {
 .parte_2 p {
   color: #000;
   font-family: Montserrat;
-  font-size: 26px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 100;
   line-height: normal;
@@ -197,7 +197,7 @@ main {
 .parte_3 p {
   color: #000;
   font-family: Montserrat;
-  font-size: 26px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 100;
   line-height: normal;
