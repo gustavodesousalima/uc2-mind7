@@ -1,5 +1,5 @@
 footer{
-    background-color: #FFDC40;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,7 @@ footer{
 }
 
 .caixa-links h4{
-    color: #fff;
+    color: #000000;
     font-size: 1.4rem;
 }
 
