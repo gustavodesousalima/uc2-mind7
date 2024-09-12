@@ -183,3 +183,10 @@ header a {
   color: #ffe676;
   font-size: 36px;
 }
+
+.empresas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
