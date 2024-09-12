@@ -42,14 +42,13 @@ p {
   max-width: 90%; /* Ajusta a largura para até 90% do contêiner */
   height: auto; /* Permite que o conteúdo ajuste sua própria altura */
   text-align: left;
-  font-size: 16px;
   font-family: Montserrat;
   border: none; /* Removi a borda para um visual mais limpo */
   padding: 0 10px; /* Pequeno padding para espaçamento interno */
 }
 
 .p_1 {
-  font-size: 50px;
+  font-size: 21px;
 }
 
 .p_2 {
