@@ -79,6 +79,11 @@ header a {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   background-color: #ffffff;
   background-image: url(../assets/livros3.jpg);
   background-size: cover;
@@ -111,7 +116,11 @@ main {
   margin: 25px;
   font-family: Montserrat;
   font-weight: 200;
-  color: white;
+  color: rgb(0, 0, 0);
+  background-color: #ffed9b;
+  padding: 10px;
+  border-radius: 8px;
+  width: 50%;
 }
 
 .pesquisa {
@@ -123,7 +132,7 @@ main {
     font-weight: 300;
     line-height: normal;
     margin-left: 8px;
-    color: white;
+    color: #000000;
     font-weight: bold;
   }
   text-align: center;
