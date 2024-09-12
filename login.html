@@ -44,17 +44,17 @@
                 <div class="container-login-e-senha">
                     <div class="container-login-email">
                         <label for="">Email</label>
-                        <input type="email">
+                        <input id="email" type="email" required>
                     </div>
     
                     <div class="container-login-senha">
                         <label for="">Senha (8 caracteres)</label>
-                        <input type="password">
+                        <input id="senha" type="password" required>
                     </div>
                 </div>
 
                 <div class="container-entrar">
-                    <a id="button-login" href="./usuario.html">Entrar</a>
+                    <a id="button-login" onclick="logarconta()">Entrar</a>
                     <p>Não tem conta? <a href="./cadastro.html">Cadastrar-se</a></p>
                 </div>
             </div>
@@ -121,4 +121,5 @@
           </script>
     </main>
 </body>
+<script src="./js/logarconta.js"></script>
 </html>
