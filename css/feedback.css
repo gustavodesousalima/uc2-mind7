@@ -49,6 +49,11 @@ body {
   height: 350px;
 }
 
+.swiper-container2 {
+  position: relative;
+  height: 350px;
+}
+
 .swiper-button-next,
 .swiper-button-prev {
   width: 44px;
