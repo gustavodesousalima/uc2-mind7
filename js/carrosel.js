@@ -17,4 +17,4 @@ function trocarClasse() {
 
     }
 }
-setInterval(trocarClasse, 5000);
+setInterval(trocarClasse, 10000);
