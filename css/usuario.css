@@ -6,7 +6,7 @@
   }
   
 main body{
-  height: 600vh;
+  height: 200vh;
 }
 
   header a {
@@ -94,7 +94,7 @@ main body{
   main {
 
     width: 100%;
-    height: 200vh;
+    height: 400vh;
     background-color: #FFED9B;
   }
 
@@ -113,7 +113,7 @@ main body{
   align-items: start;
   justify-content: start;
   width: 100%;
-  height: 180vh;
+  height: 200vh;
   margin-top: 5%;
   gap: 8%;
   
