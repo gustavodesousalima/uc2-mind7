@@ -10,62 +10,6 @@
     font-weight: bold;
 }
 
-
-/*.container_cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 90vh;
-}
-
-.conteudo_card1{
-    background-color: rgba(237, 114, 166, 0.67);
-    border-radius: 60px;
-
-    width: 80%;
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-left: 50px;
-    flex-direction: column;
-    gap: 20px;
-}
-
-h4{
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-p{
-    width: 100%;
-    height: 10vh;
-    text-align: left;
-    font-size: 20px;
-    font-family: Montserrat;
-    border: solid 1px;
-}
-
-.p_1{
-    font-size: 15px;
-}
-
-.p_2{
-    font-size: 25px;
-}
-
-.p_3{
-    font-size: 20px;
-}
- 
-*/
-
 .container_cards{
     display: flex;
     justify-content: center;
@@ -76,15 +20,15 @@ p{
 
 .conteudo_card1{
     background-color: rgba(237, 114, 166, 0.67);
-    border-radius: 60px;
-    width: 400px;
+    border-radius: 30px;
+    width: 100%;
     height: 70vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
-    margin-left: 50px;
     flex-direction: column;
+    padding-top: 50px;
     gap: 25px;
 }
 
@@ -98,7 +42,7 @@ p{
     max-width: 90%; /* Ajusta a largura para até 90% do contêiner */
     height: auto; /* Permite que o conteúdo ajuste sua própria altura */
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
     font-family: Montserrat;
     border: none; /* Removi a borda para um visual mais limpo */
     padding: 0 10px; /* Pequeno padding para espaçamento interno */
@@ -109,7 +53,7 @@ p{
 }
 
 .p_2{
-    font-size: 25px;
+    font-size: 21px;
 }
 
 .p_3{
