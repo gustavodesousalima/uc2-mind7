@@ -121,7 +121,7 @@ header a {
   align-items: center;
   flex-direction: column;
   gap: 10%;
-  width: 60%;
+  width: 50%;
   height: 80vh;
 }
 
@@ -217,10 +217,10 @@ header a {
 }
 
 .container-entrar a {
-  color: #000000;
+  color: #ffc676;
   text-decoration: none;
 }
 
 .container-entrar a:hover {
-  color: #716800;
+  color: #575753;
 }
